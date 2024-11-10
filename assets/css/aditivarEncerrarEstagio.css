@@ -275,26 +275,6 @@ footer {
   font-size: 1rem;
 }
 
-/* @media (min-width: 770px) and (max-width: 1067px ) {
-  h1 {
-    margin-top: 200px;
-  }
-
-  footer {
-    gap: 20px;
-  }
-} */
-
-/* @media (min-width: 1068px) and (max-width: 1263px){
-  h1 {
-    margin-top: 180px;
-  }
-
-  footer {
-    gap: 20px;
-  }
-} */
-
 @media (max-width: 991px) {
   .aluno,
   .diex {
@@ -339,7 +319,7 @@ footer {
   }
 
   .nav-item {
-    margin: -7px 0;  
+    margin: -2px;  
   }
 
   .nav-menu.active {
