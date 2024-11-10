@@ -320,7 +320,7 @@ footer {
     position: fixed;
     left: -100%;
     top: 0px;
-    gap: 5px;
+    gap: 0px;
     flex-direction: column;
     background-color: rgba(12, 92, 1, 0.9);
     width: 45%;
@@ -330,7 +330,7 @@ footer {
   }
 
   .nav-item {
-    margin: -5px 0;
+    margin: -7px 0;
   }
 
   .nav-menu.active {

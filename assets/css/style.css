@@ -96,7 +96,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2px;
   width: 80%;
   margin: 0 auto;
 }
@@ -372,8 +371,8 @@ footer {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 0;
-    gap: 5px;
+    top: 0px;
+    gap: 0px;
     flex-direction: column;
     background-color: rgba(12, 92, 1, 0.9);
     width: 45%;
@@ -383,7 +382,8 @@ footer {
   }
 
   .nav-item {
-    margin: -5px 0;
+    margin: -7px 0;
+    padding-top: 2px;
   }
 
   .nav-menu.active {
