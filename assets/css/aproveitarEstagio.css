@@ -168,7 +168,6 @@ h2 {
 #titulos {
   display: flex;
   flex-direction: column;
-  /* gap: 5px; */
   justify-content: center;
   margin: 0 auto;
   min-height: 100vh;
