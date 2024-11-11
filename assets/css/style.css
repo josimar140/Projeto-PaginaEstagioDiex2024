@@ -336,13 +336,28 @@ footer {
   align-items: center;
   background-color: var(--cor-verde-header-tramit-footer);
   color: var(--cor-branco);
-  display: flex;
-  justify-content: space-evenly;
+  display: inline-block;
+  justify-content: center;
   margin-top: 20px;
   text-align: center;
   padding: 20px;
   min-width: 100%;
   font-size: 1rem;
+}
+
+#footer-endereco {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-bloco {
+  margin-bottom: 10px;
+}
+
+#desenv {
+  margin-top: 10px;
+  font-size: 0.7rem;
 }
 
 @media (max-width: 992px) { 
