@@ -71,6 +71,10 @@ body {
   color: var(--cor-branco);
 }
 
+.btn-social a:hover {
+  color:  var(--cor-vermelho);
+}
+
 header {
   align-items: center;
   background-color: var(--cor-verde-header-tramit-footer);
