@@ -279,14 +279,14 @@ hr {
   align-items: center;
 }
 
-.grupo-consulta-QRcode {
+.grup {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.grupo-consulta-QRcode a:hover {
+.grup a:hover {
   background-color: var(--cor-verde-hover);
   color: var(--cor-branco);
   transform: scale(1.1);
@@ -427,6 +427,11 @@ footer {
 
   .grupo-consulta {
     flex-direction: column;
+  }
+
+  .tit-3 a{
+    margin: 10px;
+    padding: 10px;
   }
 
   #logo {
