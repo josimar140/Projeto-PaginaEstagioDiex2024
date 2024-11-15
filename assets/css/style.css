@@ -380,7 +380,6 @@ footer {
 
   .hamburguer {
     display: block;
-    color: #fff;
   }
 
   .hamburguer.active .bar:nth-child(1) {
@@ -395,6 +394,10 @@ footer {
   .hamburguer.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
     background-color: red;
+  }
+
+  .hamburguer .bar span {
+    background-color: #fff;
   }
 
   .nav-menu {
