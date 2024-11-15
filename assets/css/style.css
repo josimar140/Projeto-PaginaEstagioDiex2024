@@ -18,11 +18,11 @@
 }
 
 html {
-  font-size: 62,5%;
+  font-size: 62, 5%;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -72,7 +72,7 @@ body {
 }
 
 .btn-social a:hover {
-  color:  var(--cor-vermelho);
+  color: var(--cor-vermelho);
 }
 
 header {
@@ -127,12 +127,12 @@ header {
 
 .nav-link:hover {
   background-color: var(--cor-verde-hover);
-  color: var(--cor-branco)
+  color: var(--cor-branco);
 }
 
 nav ul li a.active {
   background-color: var(--cor-verde-hover);
-  color: var(--cor-branco)
+  color: var(--cor-branco);
 }
 
 .hamburguer {
@@ -154,7 +154,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 80%;
-  margin: 0 auto;  
+  margin: 0 auto;
   margin-top: 180px;
   color: var(--cor-preto-claro);
 }
@@ -232,7 +232,7 @@ main {
 h1,
 h2 {
   color: var(--cor-preto-claro);
-  position:relative;
+  position: relative;
   margin-left: 5px;
 }
 
@@ -240,7 +240,7 @@ h1::before {
   align-items: center;
   background-color: var(--cor-vermelho);
   border-radius: 5px;
-  content: " ";
+  content: ' ';
   height: 20px;
   left: -5px;
   position: absolute;
@@ -252,7 +252,7 @@ h2::before {
   align-items: center;
   background-color: var(--cor-vermelho);
   border-radius: 5px;
-  content: " ";
+  content: ' ';
   height: 20px;
   left: -5px;
   position: absolute;
@@ -319,8 +319,8 @@ hr {
 }
 
 .contato p {
-  margin-bottom: 10px; 
-  font-size: 1.1rem; 
+  margin-bottom: 10px;
+  font-size: 1.1rem;
   align-items: center;
   justify-content: center;
 }
@@ -369,11 +369,7 @@ footer {
   font-size: 0.8rem;
 }
 
-@media (max-width: 992px) { 
-  .bar {
-    background-color: white;
-  }
-
+@media (max-width: 992px) {
   main {
     margin-top: 200px;
   }
@@ -394,10 +390,6 @@ footer {
   .hamburguer.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
     background-color: red;
-  }
-
-  .hamburguer .bar span {
-    background-color: #fff;
   }
 
   .nav-menu {
@@ -442,7 +434,7 @@ footer {
     cursor: pointer;
     background-color: rgba(12, 92, 1, 0.9);
     color: #fff;
-  }  
+  }
 
   #logo {
     display: block;
@@ -461,10 +453,9 @@ footer {
     justify-content: center;
     align-items: center;
   }
-
 }
 
-@media (min-width: 993px) and (max-width: 1205px ) {
+@media (min-width: 993px) and (max-width: 1205px) {
   main {
     margin-top: 220px;
   }
@@ -483,5 +474,3 @@ footer {
     gap: 20px;
   }
 }
-
-
