@@ -94,6 +94,11 @@ header {
   align-items: center;
   padding: 10px 10px;
   width: 100%;
+  
+}
+
+.nav-bar .bar {
+  color: var(--cor-branco);
 }
 
 .nav-menu {
@@ -379,13 +384,13 @@ footer {
     margin-top: 200px;
   }
 
-  .bar span {
+  .bar {
     display: block;
     background-color: var(--cor-branco);
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    z-index: 999;
+  
   }
 
   /* .hamburguer {
