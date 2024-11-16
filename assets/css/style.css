@@ -139,9 +139,10 @@ nav ul li a.active {
   color: var(--cor-branco);
 }
 
-.hamburguer {
+div.hamburguer {
   /* display: none; */
   /* background-color: var(--cor-branco); */
+  color: var(--cor-verde-hover);
 }
 
 .bar {
@@ -151,7 +152,7 @@ nav ul li a.active {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: var(--cor-branco);
+  background-color: red;
 }
 
 main {
