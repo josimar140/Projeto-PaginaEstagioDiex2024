@@ -146,7 +146,7 @@ nav ul li a.active {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: white;
+  background-color: var(--cor-branco);
 }
 
 main {
@@ -369,7 +369,7 @@ footer {
   font-size: 0.8rem;
 }
 
-@media (max-width: 992px) { 
+@media (max-width: 992px) {
   main {
     margin-top: 200px;
   }
@@ -377,6 +377,10 @@ footer {
   .hamburguer {
     display: block;
     background-color: #fff;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
   }
 
   .hamburguer.active .bar:nth-child(1) {
