@@ -96,8 +96,9 @@ header {
   width: 100%;
 }
 
-.nav-bar .bar {
-  color: var(--cor-branco);
+nav.nav-bar {
+  background-color: var(--cor-verde-header-tramit-footer);
+  color: --cor-verde-header-tramit-footer: rgb(0, 128, 0);
 }
 
 .nav-menu {
@@ -152,7 +153,7 @@ div.hamburguer {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: red;
+  background-color:var(--cor-branco);
 }
 
 main {
@@ -382,20 +383,11 @@ footer {
 
   .bar {
     display: block;
-    color: red;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-  }
-
-  /* .hamburguer {
-    display: block;
     background-color: var(--cor-branco);
     width: 25px;
     height: 3px;
     margin: 5px auto;
-
-  }  */
+  }
 
   .hamburguer.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
