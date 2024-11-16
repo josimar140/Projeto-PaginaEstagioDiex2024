@@ -94,7 +94,6 @@ header {
   align-items: center;
   padding: 10px 10px;
   width: 100%;
-  
 }
 
 .nav-bar .bar {
@@ -390,12 +389,11 @@ footer {
     width: 25px;
     height: 3px;
     margin: 5px auto;
-  
   }
 
-  /* .hamburguer {
+  .hamburguer {
     display: block;
-  } */
+  }
 
   .hamburguer.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
