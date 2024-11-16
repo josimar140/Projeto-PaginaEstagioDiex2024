@@ -393,6 +393,10 @@ footer {
 
   .hamburguer {
     display: block;
+    background-color: var(--cor-branco);
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
   }
 
   .hamburguer.active .bar:nth-child(1) {
