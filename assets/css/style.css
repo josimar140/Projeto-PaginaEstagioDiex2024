@@ -370,17 +370,13 @@ footer {
 }
 
 @media (max-width: 992px) { 
-  .bar {
-    background-color: white;
-  }
-
   main {
     margin-top: 200px;
   }
 
   .hamburguer {
     display: block;
-    color: #fff;
+    background-color: #fff;
   }
 
   .hamburguer.active .bar:nth-child(1) {
