@@ -139,14 +139,10 @@ nav ul li a.active {
   color: var(--cor-branco);
 }
 
-/* .hamburguer {
-  display: none;
-  background-color: var(--cor-branco);
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto; 
-} */
+.hamburguer {
+  /* display: none; */
+  /* background-color: var(--cor-branco); */
+}
 
 .bar {
   display: none;
@@ -385,19 +381,20 @@ footer {
 
   .bar {
     display: block;
-    background-color: var(--cor-branco);
+    color: red;
     width: 25px;
     height: 3px;
     margin: 5px auto;
   }
 
-  .hamburguer {
+  /* .hamburguer {
     display: block;
     background-color: var(--cor-branco);
     width: 25px;
     height: 3px;
     margin: 5px auto;
-  }
+
+  }  */
 
   .hamburguer.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
