@@ -374,13 +374,13 @@ footer {
     margin-top: 200px;
   }
 
-  .bar span {
+  /* .bar span {
     display: block;
     color: #fff;
     width: 25px;
     height: 3px;
     margin: 5px auto;
-  }
+  } */
 
   .hamburguer {
     display: block;
