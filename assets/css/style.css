@@ -18,7 +18,7 @@
 }
 
 html {
-  font-size: 62, 5%;
+  font-size: 62,5%;
 }
 
 body {
@@ -370,19 +370,13 @@ footer {
   font-size: 0.8rem;
 }
 
-@media (max-width: 768px) {
-  .bar {
-    background-color: var(--cor-branco);
-  }
-}
-
 @media (max-width: 992px) {
   main {
     margin-top: 200px;
   }
 
   .bar {
-    /* display: block; */
+    display: block;
     background-color: var(--cor-branco);
     /* width: 25px;
     height: 3px;
