@@ -379,7 +379,7 @@ footer {
     margin-top: 200px;
   }
 
-  .bar {
+  .bar span {
     display: block;
     background-color: var(--cor-branco);
     width: 25px;
