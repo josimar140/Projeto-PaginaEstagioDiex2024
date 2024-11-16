@@ -136,7 +136,7 @@ nav ul li a.active {
 }
 
 .hamburguer {
-  display: none;
+  /* display: none; */
 }
 
 .bar {
@@ -146,7 +146,7 @@ nav ul li a.active {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  /* background-color: var(--cor-branco); */
+  background-color: var(--cor-branco);
   
 }
 
@@ -370,12 +370,18 @@ footer {
   font-size: 0.8rem;
 }
 
+/* @media (max-width: 768px) {
+  .bar {
+    background-color: var(--cor-branco);
+  }
+} */
+
 @media (max-width: 992px) {
   main {
     margin-top: 200px;
   }
 
-  span.bar {
+  .bar {
     display: block;
     background-color: var(--cor-branco);
     width: 25px;
@@ -394,7 +400,8 @@ footer {
   }
 
   .hamburguer.active .bar:nth-child(2) {
-    opacity: 0;
+    /* opacity: 0; */
+    background-color: var(--cor-branco);
   }
 
   .hamburguer.active .bar:nth-child(3) {
